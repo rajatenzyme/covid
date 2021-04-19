@@ -1,0 +1,452 @@
+
+
+html{ scroll-behavior: smooth; }
+		
+*{ margin: 0; padding:0; box-sizing: border-box;font-family: 'Muli', sans-serif; }
+
+.row{ margin: 0!important; }
+/*
+.nav_style{ background-color: #a29bfe!important;  }
+
+.nav_style a{ color: white; }
+*/
+
+.main_header{  height: 450px; 
+	/*background-color: green; */
+   /*box-shadow: 0 8px 6px -6px black;*/
+
+}
+
+
+
+
+.rightside h1{ font-size: 3rem; }
+
+.eksath_anime img{ animation: heartbeat 5s linear infinite}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+
+.corona_anime img{ animation: coranaround 3s linear infinite}
+
+@keyframes coranaround{ 
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+ }
+
+
+
+/****************** project work ****************/
+.corono_update{
+	margin: 0 0 30px 0;
+	/*background-color: #fab1a0;*/
+}
+
+.corono_update h3{ color: red; }
+
+.corono_update h1{
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+/*********************** project works end ************/
+
+/******************* about css **************/
+
+.sub_section{ 
+	background-color: #fbfafd;
+	/*padding: 50px 0;*/
+ }
+
+/************* footer *******************/
+
+.footer_style{
+	 background-color: #a29bfe!important;  
+}
+
+.footer_style p {
+	margin-bottom: 0!important;
+}
+
+/***************** top scroll **************/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 40px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #00A8FF; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+  background:  #606060 ; /* Add a dark-grey background on hover */
+}
+
+
+
+/***************** responsive css *****************/
+
+@media(max-width: 780px)
+{ .main_header{ height: 700px; text-align: center; }
+
+	.main_header h1{     
+	text-align: center;
+    padding: 0;
+    width: 100%;
+    font-size: 30px; }
+}
+
+#tbval tr {
+  background-color: #baeb34;
+}
+#tbval2 tr {
+  background-color: #baeb34;
+}
+
+body {
+  background: #fbfbfd;
+}
+
+
+.new_footer_area {
+  background: #fbfbfd;
+}
+
+
+.new_footer_top {
+  padding: 120px 0px 270px;
+  position: relative;
+    overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.footer_bottom {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #7f88a6;
+  padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #6a7695;
+  margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+  border-width: 1px;
+  margin-top: 20px;
+}
+.btn_get_two:hover {
+  background: transparent;
+  color: #5e2ced;
+}
+.btn_get:hover {
+  color: #fff;
+  background: #6754e2;
+  border-color: #6754e2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+  color: #5e2ced;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+  margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+  margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+  margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+  margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+  width: 44px;
+  height: 44px;
+  line-height: 43px;
+  background: transparent;
+  border: 1px solid #e2e2eb;
+  font-size: 24px;
+}
+.f_social_icon a {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 45px;
+  color: #858da8;
+  display: inline-block;
+  background: #ebeef5;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ti-facebook:before {
+  content: "\e741";
+}
+.ti-twitter-alt:before {
+  content: "\e74b";
+}
+.ti-vimeo-alt:before {
+  content: "\e74a";
+}
+.ti-pinterest:before {
+  content: "\e731";
+}
+
+.btn_get_two {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #5e2ced;
+  border-color: #5e2ced;
+  color: #fff;
+}
+
+.btn_get_two:hover {
+  background: transparent;
+  color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a:hover {
+  background: #5e2ced;
+  border-color: #5e2ced;
+color:white;
+}
+.new_footer_top .f_social_icon a + a {
+  margin-left: 4px;
+}
+.new_footer_top .f-title {
+  margin-bottom: 30px;
+  color: #263b5e;
+}
+.f_600 {
+  font-weight: 600;
+}
+.f_size_18 {
+  font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+  position: absolute;
+  bottom: 0;
+  background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+  background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
+  width: 330px;
+  height: 105px;
+background-size:100%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  -webkit-animation: myfirst 22s linear infinite;
+  animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+  background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
+  width: 88px;
+  height: 100px;
+background-size:100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 30s linear infinite;
+  animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+0% {
+  left: -25%;
+}
+100% {
+  left: 100%;
+}
+}
+
+@-webkit-keyframes myfirst {
+0% {
+  left: -25%;
+}
+100% {
+  left: 100%;
+}
+}
+
+@keyframes myfirst {
+0% {
+  left: -25%;
+}
+100% {
+  left: 100%;
+}
+}
+
+#img1 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+/*************footer End*****************/
+
+/******return to top********/
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+
+/* Extra Things */
+ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+
+
+
+/*new*/
+
+#new{
+  text-align: left;
+}
+
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 600px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  }
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+  #xyz {
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    color: black;
+  }
+  
+  /* Animation */
+  #xyz {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+  }
+  
+  
