@@ -2,9 +2,7 @@
 ## Covid-19 Tracker
 
 
-
-
-https://rajatenzyme.live/
+ rajatenzyme.github.io/covid/ 
 </br> 
 </br>
 
